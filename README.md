@@ -4,9 +4,9 @@ Este repositório reúne **diversos projetos** de programação, organizados por
 
 Cada projeto será implementado em **três linguagens diferentes**:
 
-- ![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg#gh-light-mode-only) **JavaScript**
-- ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg#gh-light-mode-only) **Python**
-- ![Clojure](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clojure/clojure-original.svg#gh-light-mode-only) **Clojure**
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20" alt="JavaScript"/> **JavaScript**
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20" alt="Python"/> **Python**
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clojure/clojure-original.svg" width="20" height="20" alt="Clojure"/> **Clojure**
 
 ---
 
