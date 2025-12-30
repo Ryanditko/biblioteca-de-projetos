@@ -106,5 +106,3 @@ Este repositório é ideal para:
 
 ---
 
-> Feito com 💻, 🐍 e ☕ por entusiastas de programação!
-
