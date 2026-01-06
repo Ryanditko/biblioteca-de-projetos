@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✍️ Contador de Palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>✍️ Contador de Palavras</h1>
+        <p class="subtitle">Digite ou cole seu texto abaixo</p>
+
+        <div class="editor-section">
+            <textarea id="textArea" placeholder="Digite ou cole seu texto aqui..." spellcheck="false"></textarea>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">📝</div>
+                <div class="stat-value" id="wordCount">0</div>
+                <div class="stat-label">Palavras</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">🔤</div>
+                <div class="stat-value" id="charCount">0</div>
+                <div class="stat-label">Caracteres</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">📄</div>
+                <div class="stat-value" id="charNoSpaces">0</div>
+                <div class="stat-label">Sem Espaços</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">📋</div>
+                <div class="stat-value" id="lineCount">0</div>
+                <div class="stat-label">Linhas</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">📖</div>
+                <div class="stat-value" id="paragraphCount">0</div>
+                <div class="stat-label">Parágrafos</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">⏱️</div>
+                <div class="stat-value" id="readingTime">0 min</div>
+                <div class="stat-label">Tempo de Leitura</div>
+            </div>
+        </div>
+
+        <div class="details-section">
+            <h3>📊 Detalhes Avançados</h3>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <span class="detail-label">Frases:</span>
+                    <span class="detail-value" id="sentenceCount">0</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Vogais:</span>
+                    <span class="detail-value" id="vowelCount">0</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Consoantes:</span>
+                    <span class="detail-value" id="consonantCount">0</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Palavra mais longa:</span>
+                    <span class="detail-value" id="longestWord">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="word-frequency" id="wordFrequency">
+            <h3>🔝 Palavras Mais Frequentes</h3>
+            <div id="frequencyList" class="frequency-list"></div>
+        </div>
+
+        <div class="button-group">
+            <button id="clearBtn" class="btn btn-clear">
+                🗑️ Limpar Texto
+            </button>
+            <button id="copyStatsBtn" class="btn btn-copy">
+                📋 Copiar Estatísticas
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
